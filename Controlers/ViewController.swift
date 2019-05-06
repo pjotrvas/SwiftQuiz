@@ -45,7 +45,7 @@ class ViewController: UIViewController {
         let lblTitle: UILabel = {
             let lbl=UILabel()
             lbl.text="Quiz App"
-            lbl.textColor=UIColor.blue
+            lbl.textColor=UIColor.orange
             lbl.textAlignment = .center
             lbl.font = UIFont.systemFont(ofSize: 46)
             lbl.numberOfLines=2
@@ -55,9 +55,12 @@ class ViewController: UIViewController {
         
         let btnGetStarted: UIButton = {
             let btn=UIButton()
+            btn.layer.borderWidth = 4.0
+            btn.layer.borderColor = UIColor.brown.cgColor
             btn.setTitle("Get Started", for: .normal)
-            btn.setTitleColor(UIColor.blue, for: .normal)
-            btn.backgroundColor=UIColor.gray
+            btn.titleLabel?.font = UIFont.boldSystemFont(ofSize: 20)
+            btn.setTitleColor(UIColor.orange, for: .normal)
+            btn.backgroundColor=UIColor.white
             btn.layer.cornerRadius=5
             btn.layer.masksToBounds=true
             btn.translatesAutoresizingMaskIntoConstraints=false

@@ -12,9 +12,9 @@ import UIKit
 
 enum MyColor {
     
-        case science
-        case sports
-
+    case science
+    case sports
+    
     func description()-> String{
         switch self {
         case .science:
@@ -30,10 +30,10 @@ enum MyColor {
     
     var value: UIColor {
         switch self {
-            case .science:
-                return UIColor(red: 67/255, green: 173/255, blue: 247/255, alpha: 1.0)
-            case .sports:
-                    return UIColor.red
+        case .science:
+            return UIColor(red: 255/255, green: 176/255, blue: 50/255, alpha: 1.0)
+        case .sports:
+            return UIColor.brown
         }
-}
+    }
 }
