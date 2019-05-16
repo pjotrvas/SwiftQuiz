@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42117C6F228DC7F9003B3094 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42117C6E228DC7F9003B3094 /* ViewController.swift */; };
 		4219BF522256A501002E5C5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4219BF512256A501002E5C5E /* AppDelegate.swift */; };
 		4219BF592256A502002E5C5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4219BF582256A502002E5C5E /* Assets.xcassets */; };
 		4219BF5C2256A502002E5C5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4219BF5A2256A502002E5C5E /* LaunchScreen.storyboard */; };
 		4219BF652256B2C0002E5C5E /* QuizService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4219BF642256B2C0002E5C5E /* QuizService.swift */; };
-		4284E8B4225F41BE002089D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4284E8B3225F41BE002089D4 /* ViewController.swift */; };
 		42B9BA902257ACE000B93251 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B9BA8E2257ACE000B93251 /* InitialViewController.swift */; };
 		42B9BA912257ACE000B93251 /* InitialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42B9BA8F2257ACE000B93251 /* InitialViewController.xib */; };
 		42B9BA952257B89200B93251 /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B9BA942257B89200B93251 /* Quiz.swift */; };
@@ -21,13 +21,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		42117C6E228DC7F9003B3094 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4219BF4E2256A501002E5C5E /* iOSVjestina2019.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSVjestina2019.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4219BF512256A501002E5C5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4219BF582256A502002E5C5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4219BF5B2256A502002E5C5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4219BF5D2256A502002E5C5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4219BF642256B2C0002E5C5E /* QuizService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizService.swift; sourceTree = "<group>"; };
-		4284E8B3225F41BE002089D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		42B9BA8E2257ACE000B93251 /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
 		42B9BA8F2257ACE000B93251 /* InitialViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InitialViewController.xib; sourceTree = "<group>"; };
 		42B9BA942257B89200B93251 /* Quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz.swift; sourceTree = "<group>"; };
@@ -83,7 +83,7 @@
 			children = (
 				42B9BA8E2257ACE000B93251 /* InitialViewController.swift */,
 				42B9BA8F2257ACE000B93251 /* InitialViewController.xib */,
-				4284E8B3225F41BE002089D4 /* ViewController.swift */,
+				42117C6E228DC7F9003B3094 /* ViewController.swift */,
 			);
 			path = Controlers;
 			sourceTree = "<group>";
@@ -191,7 +191,7 @@
 				4219BF522256A501002E5C5E /* AppDelegate.swift in Sources */,
 				42B9BA952257B89200B93251 /* Quiz.swift in Sources */,
 				42B9BA902257ACE000B93251 /* InitialViewController.swift in Sources */,
-				4284E8B4225F41BE002089D4 /* ViewController.swift in Sources */,
+				42117C6F228DC7F9003B3094 /* ViewController.swift in Sources */,
 				42B9BA9D225CB60D00B93251 /* ImageService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

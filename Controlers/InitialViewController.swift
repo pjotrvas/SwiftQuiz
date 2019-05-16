@@ -46,7 +46,9 @@ class InitialViewController: UIViewController {
     
     @IBAction func GumbDohvati(_ sender: UIButton){
         self.customViewContainer.addSubview(self.customView!)
-        fetchQuiz()
+       
+        self.customViewContainer.addSubview(self.customView!)
+         fetchQuiz()
     }
     
     
